@@ -15,8 +15,16 @@ void setup()                    // run once, when the sketch starts
 
 void loop()                     // run over and over again
 {
-  
- 
+  drawWall();
+  DisplaySlate();
 }
 
+void drawWall()
+{
+ for(int i=0; i < 8; i++)
+   {
+     DrawPx(i,0,Blue);
+   }
 
+
+}
